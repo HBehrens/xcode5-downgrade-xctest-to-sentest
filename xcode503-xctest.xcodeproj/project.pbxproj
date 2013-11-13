@@ -17,7 +17,6 @@
 		CB5FC06E1833916200983BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FC0531833916200983BD7 /* Foundation.framework */; };
 		CB5FC06F1833916200983BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FC0571833916200983BD7 /* UIKit.framework */; };
 		CB5FC0771833916200983BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB5FC0751833916200983BD7 /* InfoPlist.strings */; };
-		CB5FC0791833916200983BD7 /* xcode503_xctestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5FC0781833916200983BD7 /* xcode503_xctestTests.m */; };
 		CB5FC0831833979D00983BD7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FC0821833979D00983BD7 /* SenTestingKit.framework */; };
 		CB5FC086183397CC00983BD7 /* xcode463_sentestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5FC085183397CC00983BD7 /* xcode463_sentestTests.m */; };
 /* End PBXBuildFile section */
@@ -48,7 +47,6 @@
 		CB5FC06C1833916200983BD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CB5FC0741833916200983BD7 /* xcode503-xctestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xcode503-xctestTests-Info.plist"; sourceTree = "<group>"; };
 		CB5FC0761833916200983BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB5FC0781833916200983BD7 /* xcode503_xctestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcode503_xctestTests.m; sourceTree = "<group>"; };
 		CB5FC0821833979D00983BD7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CB5FC084183397CC00983BD7 /* xcode463_sentestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xcode463_sentestTests.h; sourceTree = "<group>"; };
 		CB5FC085183397CC00983BD7 /* xcode463_sentestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xcode463_sentestTests.m; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			children = (
 				CB5FC084183397CC00983BD7 /* xcode463_sentestTests.h */,
 				CB5FC085183397CC00983BD7 /* xcode463_sentestTests.m */,
-				CB5FC0781833916200983BD7 /* xcode503_xctestTests.m */,
 				CB5FC0731833916200983BD7 /* Supporting Files */,
 			);
 			path = "xcode503-xctestTests";
@@ -256,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB5FC086183397CC00983BD7 /* xcode463_sentestTests.m in Sources */,
-				CB5FC0791833916200983BD7 /* xcode503_xctestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
