@@ -2,7 +2,7 @@
 
 After struggling with `xctool` https://github.com/facebook/xctool/issues/224 for quite some time I decided to change my Xcode 5 project from `XCTest` back to `SenTest`.
 It turned out that changing from `XCTest` to `SenTest` is harder than expected and requires an additional, manual step to work with AppCode.
-I consider this as a bug, will file it and update this repo accordingly.
+I filed this as [bug OC-8746 on AppCode](http://youtrack.jetbrains.com/issue/OC-8746) and will update this repo accordingly.
 
 This repo is a documentation for those who want to downgrade and acts as a detailed bug report for JetBrains at the same time.
 
