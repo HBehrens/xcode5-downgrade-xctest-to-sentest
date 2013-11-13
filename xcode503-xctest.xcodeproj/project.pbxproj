@@ -184,7 +184,7 @@
 			name = "xcode503-xctestTests";
 			productName = "xcode503-xctestTests";
 			productReference = CB5FC06B1833916200983BD7 /* xcode503-xctestTests.octest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
